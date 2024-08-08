@@ -1,0 +1,107 @@
+body{
+    
+    background-image: url(fundo\ vector\ 5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menuprincipal{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;   
+}
+
+
+.menulist{
+    float: left;
+    width: 150px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.contatomaster{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none; 
+}
+
+.portifolio{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none; 
+}
+
+.contato{
+    float: left;
+    width: 150px;
+    font-size: 20px;   
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.txtable{
+    align-items: center;
+    border-style: solid;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{
+    max-width: 1080px;
+    max-height: 720px;
+    width: auto;
+    height: auto;
+    border: 2px solid ;
+}
+
+.lista{
+    font-size: 20px;
+}
+
+.mensagem{
+    font-size: 20px;
+}
+#msg{
+    font-size: 15px;
+}
+
+.salario{
+   font-size: 20px;
+}
