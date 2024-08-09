@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho de DevWeb</title>
+    <link rel="stylesheet" href="css curriculum vitae.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <script src="curriclum.js"></script>
+
+    <h1>LEO AUGUSTO CASSAROTTE</h1>
+
+    <p>Esta página é um resumo das habilidades e trabalhos que o Leo é capaz de fazer.</p>
+
+    <br><br><br>
+
+    <ul class="menuprincipal">
+       <li><a href="#quemsou"><button class="menulist">Quem sou</button></a></li>
+       <li><a href="#hobbies"><button class="menulist">Hobbies</button></a></li>
+       <li><a href="#academico"><button class="menulist">Acadêmico</button></a></li>
+       <li><a href="#experiencia"><button class="menulist">Experiência</button></a></li>
+       <li><a href="#portifolio"><button class="menulist">Portifólio</button></a></li>
+       <li><a href="#contato"><button class="menulist">Contato</button></a></li>
+    </ul>
+
+<br><br><br>
+
+    <h2 id="quemsou">Quem eu sou</h2>
+
+    <p>Nascido em Piracicaba, interior de São Paulo, atualmente residente de Brasília, Leo é um empregado público que atua na área de Governança e Compliance e estudante de Análise e Desenvolvimento de Sismas. É dono de um bom humor que contagia a equipe da qual ele faz parte, sempre estando em um equipe bem humorada e produtiva.</p>
+    <p>É responsável na tomada de decisões importantes, sempre prezando pelo alinhamento da equipe com as normas da empresa, tendo participado da formulação e edição de diversos documentos como Código de Ética, Planejamento Plurianual, Manual de LGPD e, mais recentemente, o Manual de Boas Práticas e ESG da Companhia na qual faz parte do quadro de funcionário.</p>
+    <p>Atualmente faz parte da equipe de desenvolvimento de softwere, atuando tanto como desenvolvedor como Governance Officer da equipe.</p>
+    
+    
+    
+       <h1>Hobbies</h1>
+
+       <h2>Música</h2>
+       <p>Desde a adolescencia, Leo entendeu a importância da música em sua vida, e sendo assim, sempre dedicou um tempo a esse Hobby</p>
+       <div class="container">
+        <img src="foto em estudio.jpg" alt="musica" class="foto">
+       </div>
+
+       <h2>Cultura e Viagens</h2>
+       <p>Viagens e cultura poem ser colocados aqui também, afinal, conhecer lugares novos e culturas novas são sim, importante não só para diversão, mas para diversificação e entendimento de diferentes pensamentos</p>
+       <div class="container">
+        <img src="jardimdemonet.jpg" alt="jardins" class="foto">
+       </div>  
+
+    <br><br><br>
+
+</table>
+    <h1 id="academico">Acadêmico</h1>
+
+    <h2>Graduação</h2>
+
+    <ul class="lista">
+        <li>Análise e Desenvolvimento de Sistemas - UNINTER</li>
+        <li>Graduação em Gestão Comercial - SENAC SP</li>
+        <li>Pós-Graduação em Governança e Compliance </li>
+    </ul>
+
+    <h2>Cursos Livres</h2>
+
+    <ul class="lista">
+        <li>Trilha LGPD</li>
+        <li>Planejamento e Aplicação de ESG</li>
+        <li>CSS na Prática</li>
+        <li>JAVA na Prática</li>
+        <li>Curso de Design</li>
+    </ul>
+<h1 id="experiencia">Experiência</h1>
+
+<p>Experiência não falta. Uma trajetória cheia de experiências nas mais diversas áreas transformaram o profissonal que hoje existe e do qual você lê o resumo.</p>
+
+<ul class="lista">
+    <li>NOVACAP</li>
+    <li>Livraria Cultura</li>
+    <li>Esquina do Mergulhador</li>
+    <li>Campo de futebol KICHUTE</li>
+    <li>Sorveteira GELATTO</li>
+</ul>
+
+<p>Além das experiências com empresas, há também a experiência em ideias próprias.</p>
+
+<ul class="lista">
+    <li>GrillFest FoodTruck</li>
+    <li>Leo Lanches</li>
+    <li>Pães de Queijo do Leo</li>
+    <li>Copiadora Família</li>
+</ul>
+
+<h1>Portifólio</h1>
+
+<div class="portifolio" id="portifolio">
+    <button class="contato" type="button" onclick="abreProt()">Protótipo Vivino</button>
+</div>
+
+
+<br><br><br>
+
+<h2 id="contato">Contato</h2>
+
+<br><br>
+
+
+<ul class="contatomaster">
+    <li><button class="contato" type="button" onclick="abreInsta()">Instagram</button></li>
+    <li><button class="contato" type="button" onclick="abreX()">X</button></li>
+    <li><button class="contato" type="button" onclick="abreDiscord()">Discord</button></li>
+</ul>
+
+<br><br><br><br><br>
+
+<div class="mensagem">
+    <table>
+        <tr>
+            <th><label for="msg">Deixe aqui sua mensagem:</label></th>
+            <th><textarea name="Mensagem" id="msg" rows="6" cols="40"></textarea></th>
+            <th><button type="button" onclick="msgEnv()">Enviar</button></th>
+        </tr>
+    </table>
+</div>
+
+<br>
+
+<div class="salario">
+    <h2>Qual a pretensão salarial a ser paga?</h2>
+<input class="radio" type="radio" id="salario" name="salario" value="até 2500" onclick="radiofun()">
+<label class="radio" for="salario1">Até R$2500</label><br>
+<input class="radio" type="radio" id="salario" name="salario" value="de 2500 a 5000" onclick="radiofun2()">
+<label class="radio" for="salario2">de R$2500 a R$5000</label><br>
+<input class="radio" type="radio" id="salario" name="salario" value="acima de 5000" onclick="radiofun3()">
+<label class="radio" for="salario3">Acima de R$5000</label>
+</div>
+
+<br><br><br>
+
+<ul class="menuprincipal">
+    <li><a href="#quemsou"><button class="menulist">Quem sou</button></a></li>
+    <li><a href="#hobbies"><button class="menulist">Hobbies</button></a></li>
+    <li><a href="#academico"><button class="menulist">Acadêmico</button></a></li>
+    <li><a href="#experiencia"><button class="menulist">Experiência</button></a></li>
+    <li><a href="#portifolio"><button class="menulist">Portifólio</button></a></li>
+    <li><a href="#contato"><button class="menulist">Contato</button></a></li>
+ </ul>
+<br>
+    
+
+
+</body>
+</html>
